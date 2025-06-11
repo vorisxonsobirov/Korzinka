@@ -53,3 +53,26 @@ button:hover {
   padding: 20px 30px;
   background-color: #ff0000;
 }
+input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+form button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+button {
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
